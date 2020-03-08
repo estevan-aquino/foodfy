@@ -1,1 +1,63 @@
-/*font-family: 'El Messiri', sans-serif; 
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Roboto', sans-serif;
+    padding: 0 230px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.logo { 
+    padding: 36px;
+}
+
+.nav{
+    padding: 38px;
+    position: relative;
+    
+}
+
+.nav a{
+    
+    padding: 0px 30px;
+    text-decoration: initial;
+    font-size: 16px;
+    
+
+}
+main{
+    align-items: center;
+}
+
+.caixa{
+    width: 940px;
+    height: 366px;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+.imag{
+    position: absolute;
+    right: 100px;
+    bottom: -3px;
+}
+
+.caixa .slogan h2{
+    margin: 100px;
+    color: white;
+
+}
