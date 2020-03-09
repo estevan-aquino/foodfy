@@ -14,26 +14,26 @@ a{
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 
 header {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    margin: 0 15% 30px 15%;
 }
 
 .logo {
-    margin-left: 350px;
     margin-top: 35px;
     height: 30px;
-    
+    width: 100px;
 }
 
 .nav{
-    padding: 38px;
-    position: relative;
-    
+    margin-top: 35px;
 }
 
 .nav a{
@@ -41,15 +41,19 @@ header {
     padding: 0px 30px;
     text-decoration: initial;
     font-size: 16px;
-    
-
 }
+
+/* INICIAL */
+
 main{
-    align-items: center;
-    padding: 0 350px;
+    /* display: grid;
+    grid-template-columns: 1fr 3fr 1fr; */
+    margin: 0 15% 100px 15%;
+    min-width: auto;
 }
 
 .caixa{
+    /* grid-column: 2/3; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: auto;
@@ -57,8 +61,7 @@ main{
     background-color: #FBDFDB;
     border-radius: 30px;
     position: relative;
-    min-width: 540px;
-
+    
 }
 
 .imag{
@@ -79,16 +82,23 @@ main{
     min-width: 160px;
 }
 
+/* .mostView{
+    grid-column: 2/3;
+} */
+
 .mostView h1{
     margin: 50px 0px;
     font-size: 24px;
 }
 
 footer{
-    margin: 0 auto;
     text-align: center;    
     background-color: #EEEEEE;
-    padding: 23px;
+    padding: 23px 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
 }
 
 footer div p{
@@ -96,6 +106,7 @@ footer div p{
     font-size: 14px;
     
 }
+/* SOBRE */
 
 .sobre h1{
     font-size: 24;
@@ -103,7 +114,26 @@ footer div p{
 }
 
 .sobre p{
-    width: 900px;
+    width: 100%;
     padding: 20px 0px;
     line-height: 28px;
+}
+
+/* RECIPES */
+
+.resList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    column-gap: 20px;
+    min-width: 900px;
+}
+
+.res{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: tomato;
+    border-radius: 20px;
+    min-width: auto;
+    min-height: 300px;
 }
