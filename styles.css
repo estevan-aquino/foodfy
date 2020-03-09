@@ -6,11 +6,15 @@
     border: 0;
 }
 
+a{
+    color: #000;
+    text-decoration: initial;
+}
+
 body {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    padding: 0 230px;
-    margin: 0 auto;
+    position: relative;
 }
 
 
@@ -19,8 +23,10 @@ header {
     grid-template-columns: 1fr 3fr;
 }
 
-.logo { 
-    padding: 36px;
+.logo {
+    margin-left: 300px;
+    margin-top: 35px;
+    
 }
 
 .nav{
@@ -39,10 +45,13 @@ header {
 }
 main{
     align-items: center;
+    padding: 0 300px;
 }
 
 .caixa{
-    width: 940px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
     height: 366px;
     background-color: #FBDFDB;
     border-radius: 30px;
@@ -57,7 +66,30 @@ main{
 }
 
 .caixa .slogan h2{
-    margin: 100px;
-    color: white;
+    margin: 140px auto 10px 60px ;
+    color: #111111;
+    font-size: 32px;
+}
+.slogan p{
+    margin: 0 60px;
+    font-size: 18px;
+    opacity: 0.7;
+}
 
+.mostView h1{
+    margin: 50px 0px;
+    font-size: 24px;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;    
+    background-color: #EEEEEE;
+    padding: 23px;
+}
+
+footer div p{
+    opacity: 0.7;
+    font-size: 14px;
+    
 }
