@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    {% block head %}
+    {% endblock head %}
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri:400,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="/"><img src="/Imagens/logo.png" alt=""></a>
+        <div class="nav">
+        {% block navegador %}
+        
+        {% endblock navegador %}
+        </div>
+    </header>
+    
+{% block conteudo %}
+
+{% endblock conteudo %}%}
+
+    <footer>
+        <div>
+            <p>Todos os direiros reservados, receitas Foodfy</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "foodfy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon index.html"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steven-exe/foodfy.git"
+  }
+}

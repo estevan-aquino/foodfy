@@ -1,0 +1,31 @@
+{%extends "layout.njk"%}
+
+{% block head %}
+    <title>Foodfy (on work)</title>
+{% endblock head %}
+
+    {% block navegador %}
+        <a href="/about">Sobre</a>
+        <a href="/recipes">Receitas</a>
+    {% endblock navegador %}
+
+{% block conteudo %}
+    <main>
+        <div class="caixa">
+            <div class="slogan">
+                <h2>As melhores receitas</h2>
+                <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
+            </div>
+
+            <div class="imag">
+                <img src="/Imagens/chef.png" alt="Desenho de um Chef de cozinha">
+            </div>
+        </div>
+
+        <div class="mostView">
+            <h1>Mais acessadas</h1>
+
+            <!-- Receitas Mais Acessadas -->
+        </div>
+    </main>
+{% endblock conteudo %}
