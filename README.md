@@ -1,6 +1,6 @@
 # <a href="https://www.youtube.com/embed/eaEMSKzqGAg?controls=0?autoplay">Hello there!</a>
 
-I'm just testing some stuff, and using things that i learned or that i'am learning =) 
+This project is an exercice made by me and based on the LauchBase course by <a href="https://rocketseat.com.br/">RocketSeat</a>
 
 This project is a web site for sharing food recipes!
 
